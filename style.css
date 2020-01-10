@@ -1,0 +1,159 @@
+.div_style button
+{
+	color: #000000;
+background: #993399;
+}
+.div_style button:hover
+{
+	color: #000000;
+	background: #5b1e5b
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial
+}
+.head{
+	border-bottom:1px solid #777;
+	padding-left:40px;
+	font-size:50px;
+	text-transform:uppercase;
+}
+.container{
+	width:600px;
+	/*border:1px solid #777;*/
+	margin: 50px auto 0px;
+}
+.links{
+	margin-bottom:30px;
+	text-transform:uppercase;
+}
+.links a{
+	text-decoration:none;
+	color:#777;
+	padding-left:20px;
+	font-size:20px;
+	font-weight:bold
+}
+.links a:hover{
+	color:#f00;
+}
+.project{
+	font-size:20px;
+	padding:40px;
+}
+
+
+article{
+    width:900px;
+    margin:0px auto;
+}
+.header_form{
+    text-align:left;
+    margin:30px 0px 15px;
+    font-size: 20px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.registration{
+    border:1px solid #ccc;
+}
+.field_input{
+    width: 90%;
+    margin:5px;
+    padding:15px;
+}
+.field_input label{
+    font-size: 20px;
+    font-weight:bold;
+}
+.field_input input{
+    width:50%;
+    height:40px;
+    margin-top:10px;
+    padding:3px;
+    outline:none;
+    font-size:16px;
+}
+.btn1{
+    background-color:rgba(227,16,19,1);
+    width:200px;
+    margin-left:10px;
+    padding:10px;
+    color:#fff;
+    font-size:20px;
+    border:2px solid #e31013;
+    transition-duration: 0.4s;
+    cursor:pointer;
+    border-radius:5px;
+    text-align:center;
+    outline:none;
+}
+.btn1:hover{
+    background-color:#fff;
+    color:#000;
+    border:2px solid #e31013;
+}
+
+.error{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+}
+.container .links .ch{
+	color:#f00;
+}
+.afterUpdate{
+    width:900px;
+    margin:0px auto;
+}
+.selectid{
+	padding:3px;
+	font-weight:bold;
+	font-size:20px;
+	width:100px;
+	outline:none;
+	color:#777;
+}
+.registration .SearchId{
+	padding: 20px;
+}
+.tit{
+	width: 250px;
+}
+th{
+    background-color:#f1f1f1;
+    border:none;
+    padding:5px;
+    width:200px;
+}
+td{
+    font-size:20px;
+    border:none;
+    padding:5px;
+}
+tr:hover{
+    background-color:#f5f5f5;
+}
+.dele{
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+.dele:hover{
+    text-decoration:underline;
+}
+.done{
+    background-color:#dff0d8;
+    padding:10px;
+    border-radius:5px;
+    color:#3c763d;
+    border:1px solid #3c763d;
+    text-align:center;
+    width:30%;
+    margin:0px auto;
+    font-size:20px
+}
